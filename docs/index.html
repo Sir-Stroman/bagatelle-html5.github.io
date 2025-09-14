@@ -10,7 +10,7 @@
       a { color: #8cf; }
       @font-face {
         font-family: 'UseTheSchwarz';
-        src: url('./web/fonts/24_Use the Schwarz.ttf') format('truetype');
+        src: url('./fonts/24_Use the Schwarz.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -20,7 +20,9 @@
   <body>
     <noscript>This page requires JavaScript to run the game.</noscript>
     <div id="game"></div>
-    <script src="./web/vendor/phaser.min.js"></script>
-    <script type="module" src="./web/main.js"></script>
+    <!-- Phaser vendor build inside docs/vendor/ -->
+    <script src="./vendor/phaser.min.js"></script>
+    <!-- Your game entry point inside docs/ -->
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
