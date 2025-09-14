@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Bagatelle HTML5 Injector
 // @namespace    https://local.dev/bagatelle
-// @version      0.2.0
-// @description  Replace Flash RIP placeholder with the local HTML5 port (Phaser) running on localhost.
+// @version      0.2.1
+// @description  Replace Flash RIP placeholder with the local HTML5 port (Phaser) running on Github pages.
 // @match        https://www.neopets.com/halloween/bagatelle.phtml*
 // @run-at       document-end
 // @grant        GM_xmlhttpRequest
@@ -13,7 +13,7 @@
 (function() {
   'use strict';
 
-  const DEFAULT_SRC = 'http://localhost:8080/'; // Served by `node web/server.js`
+  const DEFAULT_SRC = 'https://sir-stroman.github.io/bagatelle-html5.github.io/'; // Served by `node web/server.js`
   let SRC = localStorage.getItem('bagatelle_src') || DEFAULT_SRC;
   // Ensure embed mode param for cleaner UI inside iframe
   if (SRC.indexOf('?') === -1) SRC += '?embed=1';
