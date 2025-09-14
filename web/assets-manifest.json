@@ -1,0 +1,133 @@
+{
+  "sprites": {
+    "DefineSprite_13": [
+      "sprites/DefineSprite_13/1.png"
+    ],
+    "DefineSprite_14": [
+      "sprites/DefineSprite_14/1.png"
+    ],
+    "DefineSprite_16": [
+      "sprites/DefineSprite_16/1.png"
+    ],
+    "DefineSprite_18": [
+      "sprites/DefineSprite_18/1.png"
+    ],
+    "DefineSprite_23": [
+      "sprites/DefineSprite_23/1.png"
+    ],
+    "DefineSprite_29": [
+      "sprites/DefineSprite_29/1.png"
+    ],
+    "DefineSprite_30": [
+      "sprites/DefineSprite_30/1.png",
+      "sprites/DefineSprite_30/2.png",
+      "sprites/DefineSprite_30/3.png",
+      "sprites/DefineSprite_30/4.png",
+      "sprites/DefineSprite_30/5.png",
+      "sprites/DefineSprite_30/6.png",
+      "sprites/DefineSprite_30/7.png",
+      "sprites/DefineSprite_30/8.png",
+      "sprites/DefineSprite_30/9.png",
+      "sprites/DefineSprite_30/10.png",
+      "sprites/DefineSprite_30/11.png"
+    ],
+    "DefineSprite_40": [
+      "sprites/DefineSprite_40/1.png"
+    ],
+    "DefineSprite_43": [
+      "sprites/DefineSprite_43/1.png"
+    ],
+    "DefineSprite_8": [
+      "sprites/DefineSprite_8/1.png"
+    ]
+  },
+  "images": [],
+  "frames": [
+    "frames/1.png",
+    "frames/2.png",
+    "frames/3.png",
+    "frames/4.png",
+    "frames/5.png",
+    "frames/6.png",
+    "frames/7.png",
+    "frames/8.png",
+    "frames/9.png",
+    "frames/10.png",
+    "frames/11.png",
+    "frames/12.png",
+    "frames/13.png",
+    "frames/14.png",
+    "frames/15.png",
+    "frames/16.png",
+    "frames/17.png",
+    "frames/18.png",
+    "frames/19.png",
+    "frames/20.png",
+    "frames/21.png",
+    "frames/22.png",
+    "frames/23.png",
+    "frames/24.png",
+    "frames/25.png",
+    "frames/26.png",
+    "frames/27.png",
+    "frames/28.png",
+    "frames/29.png",
+    "frames/30.png",
+    "frames/31.png",
+    "frames/32.png",
+    "frames/33.png",
+    "frames/34.png",
+    "frames/35.png",
+    "frames/36.png",
+    "frames/37.png",
+    "frames/38.png",
+    "frames/39.png",
+    "frames/40.png",
+    "frames/41.png",
+    "frames/42.png",
+    "frames/43.png",
+    "frames/44.png",
+    "frames/45.png",
+    "frames/46.png",
+    "frames/47.png",
+    "frames/48.png",
+    "frames/49.png",
+    "frames/50.png",
+    "frames/51.png",
+    "frames/52.png",
+    "frames/53.png",
+    "frames/54.png",
+    "frames/55.png",
+    "frames/56.png",
+    "frames/57.png",
+    "frames/58.png",
+    "frames/59.png",
+    "frames/60.png"
+  ],
+  "sounds": [
+    "sounds/-1.wav",
+    "sounds/1_throw.mp3",
+    "sounds/2_pow.mp3",
+    "sounds/3_hit.mp3"
+  ],
+  "soundMap": {
+    "throw": "sounds/1_throw.mp3",
+    "pow": "sounds/2_pow.mp3",
+    "hit": "sounds/3_hit.mp3"
+  },
+  "texts": {
+    "5": " ",
+    "22": "ActionScript",
+    "25": " ",
+    "26": " ",
+    "31": " ",
+    "32": " ",
+    "35": " ",
+    "36": " ",
+    "37": " ",
+    "38": " ",
+    "41": "Play again",
+    "42": "Play again"
+  },
+  "firstAnimationKey": "DefineSprite_13"
+}
