@@ -38,145 +38,145 @@ class LoadScene extends Phaser.Scene {
     console.log('LoadScene: Loading shape6...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape6');
-      this.load.svg('shape6', '../shapes/6.svg', { width: Math.round(543.4 * DPR), height: Math.round(530.45 * DPR) });
+      this.load.svg('shape6', 'web/shapes/6.svg', { width: Math.round(543.4 * DPR), height: Math.round(530.45 * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape6');
-      this.load.image('shape6', '../shapes/6.svg');
+      this.load.image('shape6', 'web/shapes/6.svg');
     }
 
     // DefineShape(7): RECT in twips ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ ~408.6 x 170.45 px
     console.log('LoadScene: Loading shape7...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape7');
-      this.load.svg('shape7', '../shapes/7.svg', { width: Math.round((8172/20) * DPR), height: Math.round((3409/20) * DPR) });
+      this.load.svg('shape7', 'web/shapes/7.svg', { width: Math.round((8172/20) * DPR), height: Math.round((3409/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape7');
-      this.load.image('shape7', '../shapes/7.svg');
+      this.load.image('shape7', 'web/shapes/7.svg');
     }
 
     // DefineShape(9): Xmin=-297,Xmax=10389,Ymin=-394,Ymax=11430 twips
     console.log('LoadScene: Loading shape9...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape9');
-      this.load.svg('shape9', '../shapes/9.svg', { width: Math.round(((10389-(-297))/20) * DPR), height: Math.round(((11430-(-394))/20) * DPR) });
+      this.load.svg('shape9', 'web/shapes/9.svg', { width: Math.round(((10389-(-297))/20) * DPR), height: Math.round(((11430-(-394))/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape9');
-      this.load.image('shape9', '../shapes/9.svg');
+      this.load.image('shape9', 'web/shapes/9.svg');
     }
 
     // DefineShape(10): Xmin=3073,Xmax=14447,Ymin=-1,Ymax=11921 twips
     console.log('LoadScene: Loading shape10...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape10');
-      this.load.svg('shape10', '../shapes/10.svg', { width: Math.round(((14447-3073)/20) * DPR), height: Math.round(((11921-(-1))/20) * DPR) });
+      this.load.svg('shape10', 'web/shapes/10.svg', { width: Math.round(((14447-3073)/20) * DPR), height: Math.round(((11921-(-1))/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape10');
-      this.load.image('shape10', '../shapes/10.svg');
+      this.load.image('shape10', 'web/shapes/10.svg');
     }
 
     // DefineShape(11): Xmin=-1492,Xmax=11476,Ymin=-2542,Ymax=12096 twips
     console.log('LoadScene: Loading shape11...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape11');
-      this.load.svg('shape11', '../shapes/11.svg', { width: Math.round(((11476-(-1492))/20) * DPR), height: Math.round(((12096-(-2542))/20) * DPR) });
+      this.load.svg('shape11', 'web/shapes/11.svg', { width: Math.round(((11476-(-1492))/20) * DPR), height: Math.round(((12096-(-2542))/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape11');
-      this.load.image('shape11', '../shapes/11.svg');
+      this.load.image('shape11', 'web/shapes/11.svg');
     }
 
     // DefineShape(12): bounds (-20,-17.5)[40x35] px (from sprite 13 bounds)
     console.log('LoadScene: Loading shape12...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape12');
-      this.load.svg('shape12', '../shapes/12.svg', { width: Math.round(40 * DPR), height: Math.round(35 * DPR) });
+      this.load.svg('shape12', 'web/shapes/12.svg', { width: Math.round(40 * DPR), height: Math.round(35 * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape12');
-      this.load.image('shape12', '../shapes/12.svg');
+      this.load.image('shape12', 'web/shapes/12.svg');
     }
 
     // DefineShape(15): RECT Xmax=5980,Ymax=9807 twips -> ~299 x 490.35 px
     console.log('LoadScene: Loading shape15...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape15');
-      this.load.svg('shape15', '../shapes/15.svg', { width: Math.round((5980/20) * DPR), height: Math.round((9807/20) * DPR) });
+      this.load.svg('shape15', 'web/shapes/15.svg', { width: Math.round((5980/20) * DPR), height: Math.round((9807/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape15');
-      this.load.image('shape15', '../shapes/15.svg');
+      this.load.image('shape15', 'web/shapes/15.svg');
     }
     
     // DefineShape(17): RECT Xmax=2262,Ymax=1954 twips -> ~113.1 x 97.7 px
     console.log('LoadScene: Loading shape17...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape17');
-      this.load.svg('shape17', '../shapes/17.svg', { width: Math.round((2262/20) * DPR), height: Math.round((1954/20) * DPR) });
+      this.load.svg('shape17', 'web/shapes/17.svg', { width: Math.round((2262/20) * DPR), height: Math.round((1954/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape17');
-      this.load.image('shape17', '../shapes/17.svg');
+      this.load.image('shape17', 'web/shapes/17.svg');
     }
 
     // DefineShape(19): Xmin=-5000,Xmax=15000,Ymin=-5000,Ymax=15000 twips -> 1000 x 1000 px
     console.log('LoadScene: Loading shape19...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape19');
-      this.load.svg('shape19', '../shapes/19.svg', { width: Math.round(((15000-(-5000))/20) * DPR), height: Math.round(((15000-(-5000))/20) * DPR) });
+      this.load.svg('shape19', 'web/shapes/19.svg', { width: Math.round(((15000-(-5000))/20) * DPR), height: Math.round(((15000-(-5000))/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape19');
-      this.load.image('shape19', '../shapes/19.svg');
+      this.load.image('shape19', 'web/shapes/19.svg');
     }
 
     // DefineShape(27): RECT Xmin=400,Xmax=8572,Ymin=6340,Ymax=9748 twips
     console.log('LoadScene: Loading shape27...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape27');
-      this.load.svg('shape27', '../shapes/27.svg', { width: Math.round(((8572-400)/20) * DPR), height: Math.round(((9748-6340)/20) * DPR) });
+      this.load.svg('shape27', 'web/shapes/27.svg', { width: Math.round(((8572-400)/20) * DPR), height: Math.round(((9748-6340)/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape27');
-      this.load.image('shape27', '../shapes/27.svg');
+      this.load.image('shape27', 'web/shapes/27.svg');
     }
 
     // DefineShape(28): RECT Xmax=7649,Ymax=9807 twips -> ~382.45 x 490.35 px
     console.log('LoadScene: Loading shape28...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape28');
-      this.load.svg('shape28', '../shapes/28.svg', { width: Math.round((7649/20) * DPR), height: Math.round((9807/20) * DPR) });
+      this.load.svg('shape28', 'web/shapes/28.svg', { width: Math.round((7649/20) * DPR), height: Math.round((9807/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape28');
-      this.load.image('shape28', '../shapes/28.svg');
+      this.load.image('shape28', 'web/shapes/28.svg');
     }
 
     // DefineShape(33): RECT Xmin=-4086,Xmax=4086,Ymin=-1704,Ymax=1704 twips -> ~408.6 x 170.4 px doubled width
     console.log('LoadScene: Loading shape33...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape33');
-      this.load.svg('shape33', '../shapes/33.svg', { width: Math.round(((4086 - (-4086))/20) * DPR), height: Math.round(((1704 - (-1704))/20) * DPR) });
+      this.load.svg('shape33', 'web/shapes/33.svg', { width: Math.round(((4086 - (-4086))/20) * DPR), height: Math.round(((1704 - (-1704))/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape33');
-      this.load.image('shape33', '../shapes/33.svg');
+      this.load.image('shape33', 'web/shapes/33.svg');
     }
 
     // DefineShape(34): RECT Xmin=-2672,Xmax=11926,Ymin=10040,Ymax=16255 twips
     console.log('LoadScene: Loading shape34...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape34');
-      this.load.svg('shape34', '../shapes/34.svg', { width: Math.round(((11926-(-2672))/20) * DPR), height: Math.round(((16255-10040)/20) * DPR) });
+      this.load.svg('shape34', 'web/shapes/34.svg', { width: Math.round(((11926-(-2672))/20) * DPR), height: Math.round(((16255-10040)/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape34');
-      this.load.image('shape34', '../shapes/34.svg');
+      this.load.image('shape34', 'web/shapes/34.svg');
     }
 
     // DefineShape(39): RECT Xmin=-1,Xmax=5281,Ymin=0,Ymax=1205 twips
     console.log('LoadScene: Loading shape39...');
     if (this.load.svg) {
       console.log('LoadScene: Using SVG loader for shape39');
-      this.load.svg('shape39', '../shapes/39.svg', { width: Math.round(((5281-(-1))/20) * DPR), height: Math.round(((1205-0)/20) * DPR) });
+      this.load.svg('shape39', 'web/shapes/39.svg', { width: Math.round(((5281-(-1))/20) * DPR), height: Math.round(((1205-0)/20) * DPR) });
     } else {
       console.log('LoadScene: Using image loader for shape39');
-      this.load.image('shape39', '../shapes/39.svg');
+      this.load.image('shape39', 'web/shapes/39.svg');
     }
 
     // DefineSprite(23): load a representative frame image for debugging/visibility
     console.log('LoadScene: Loading sprite23 image for DefineSprite_23');
-    this.load.image('sprite23', '../sprites/DefineSprite_23/1.png');
+    this.load.image('sprite23', 'web/sprites/DefineSprite_23/1.png');
 
     // Add load progress logging
     this.load.on('progress', (value) => {
@@ -193,9 +193,9 @@ class LoadScene extends Phaser.Scene {
 
     // Sounds
     try {
-      this.load.audio('throw', '../sounds/1_throw.mp3');
-      this.load.audio('pow', '../sounds/2_pow.mp3');
-      this.load.audio('hit', '../sounds/3_hit.mp3');
+      this.load.audio('throw', 'web/sounds/1_throw.mp3');
+      this.load.audio('pow', 'web/sounds/2_pow.mp3');
+      this.load.audio('hit', 'web/sounds/3_hit.mp3');
       console.log('LoadScene: Queued audio assets');
     } catch (e) {
       console.warn('LoadScene: Audio load not supported', e);
